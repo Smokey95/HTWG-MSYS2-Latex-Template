@@ -1,4 +1,4 @@
-# Unofficial-HTWG-LaTeX-Template
+# HTWG MSYS2 LaTeX Template
 
 📄 This repository is intended as an unofficial LaTeX Template for documentations at the <br>
 🗺️ University of Applied Sciences (HTWG) Konstanz.
@@ -22,7 +22,7 @@
 ### 2. Changes to be done ###
   - Change the `\projectPath` under [*defines.tex*](texdata/defines.tex)
   - Change the `\usepackage` path for minted outdata under [*preamble.tex*](texdata/preamble.tex)
-  - Rename the template file as well as example sections
+  - Rename the template file as well as example sections as needed
 
 
 ## Requirements
