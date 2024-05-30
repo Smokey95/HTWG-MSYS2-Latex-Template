@@ -1,0 +1,12 @@
+/outdata
+*.gz
+*.synctex(busy)
+*.log
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.out
+*.pyg
+*.xml
+*.toc

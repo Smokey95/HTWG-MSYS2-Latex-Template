@@ -1,0 +1,40 @@
+
+%% Project defines.
+%------------------------------------------------------------------------------- PATH
+\newcommand{\projectPath}{C:/PATH/TO/PROJECT}                                   % Path to the project.
+\newcommand{\sectionsPath}{\projectPath/sections}	                            % Sections path
+\newcommand{\outdataPath}{\projectPath/outdata}                                 % Output path
+\newcommand{\outdir}{outputdir=\outdataPath}
+
+%Document Title
+\newcommand{\docTitle}{MSYS2 LaTex Template}
+\newcommand{\docSubTitle}{This is a subtitle}
+
+%Creator information
+\newcommand{\docCreater}{John Doe}
+\newcommand{\docCreaterID}{690420}
+\newcommand{\docCreatorMail}{john.doe@htwg-konstanz.de}
+
+%Location and date
+\newcommand{\docLocation}{Konstanz}
+\newcommand{\docDate}{2019-10-01}
+
+%Background picture
+% add a background choosing option
+
+\newcommand{\parTa}[1]{\fontsize{30}{34} \selectfont \begin{flushleft}#1\end{flushleft}}
+\newcommand{\parTb}[1]{\fontsize{22}{24} \selectfont \begin{flushleft}#1\end{flushleft}}
+\newcommand{\parTc}[1]{\fontsize{10}{8} \selectfont \begin{flushleft}#1\end{flushleft}}
+
+%Bibtex resource
+\addbibresource{\projectPath/texdata/bibliography.bib}
+
+%Graphics path
+\graphicspath{ {\projectPath/figures/} }
+
+%------------------------------------------------------------------------------- COLOR
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{folderbg}{RGB}{124,166,198}
+\definecolor{folderborder}{RGB}{110,144,169}
